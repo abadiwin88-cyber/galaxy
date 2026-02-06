@@ -107,7 +107,7 @@ class StaffPermissionSystem {
                     username: 'staff2',
                     password: 'staff123',
                     name: 'Siti Nurhaliza',
-                    shift: '09:00',
+                    shift: '05:00',
                     quota: {
                         regular: 4,
                         meal: 3,
@@ -571,4 +571,5 @@ document.addEventListener('DOMContentLoaded', () => {
     window.staffSystem = new StaffPermissionSystem();
 
 });
+
 
